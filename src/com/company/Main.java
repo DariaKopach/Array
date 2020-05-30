@@ -48,8 +48,6 @@ public class Main {
 
         }
 
-        // System.out.println(distinktString);
-
         String[] distinctArray = distinctString.split(" ");
         Arrays.sort(distinctArray);
 
