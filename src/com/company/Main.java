@@ -45,7 +45,6 @@ public class Main {
             if (!distinctString.contains(words[i])) {
                 distinctString += words[i] + " ";
             }
-
         }
 
         String[] distinctArray = distinctString.split(" ");
@@ -54,6 +53,7 @@ public class Main {
         for (int i = 0; i < distinctArray.length; i++) {
             System.out.println(distinctArray[i]);
         }
+
         String hw = "Hello World!";
         int hash = hw.hashCode();
         System.out.println(hash);
