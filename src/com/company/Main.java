@@ -1,5 +1,5 @@
 /*
- * Cycle practice
+ * Array practice
  *
  * Version 1.0
  *
