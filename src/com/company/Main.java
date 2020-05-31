@@ -32,8 +32,8 @@ public class Main {
                 .replaceAll("\"", "")
                 .replaceAll("-", "")
                 .replaceAll("'", "")
-                .replaceAll("\n", "")
-                .replaceAll("\\d", "")
+                .replaceAll("\n", "") //clean from enters
+                .replaceAll("\\d", "") //clean from numbers
                 .toLowerCase();
 
         String[] words = cleanerText.split(" ");
@@ -48,11 +48,11 @@ public class Main {
         }
 
         String[] distinctArray = distinctString.split(" ");
-        Arrays.sort(distinctArray);
+
+        Arrays.sort(distinctArray); // sort in alphabetic order
 
         for (int i = 0; i < distinctArray.length; i++) {
             System.out.println(distinctArray[i]);
         }
-
     }
 }
