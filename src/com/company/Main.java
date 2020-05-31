@@ -16,7 +16,8 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        String text = new String(Files.readAllBytes(Paths.get("C:\\Users\\Nastya\\Desktop\\Harry.txt")));
+        String text = new String(Files.readAllBytes(Paths.get
+                ("C:\\Users\\Nastya\\Desktop\\Harry.txt")));
 
         String cleanerText = text
                 .replaceAll("\\.", "")
@@ -45,6 +46,7 @@ public class Main {
                 distinctString += words[i] + " ";
             }
         }
+
         String[] distinctArray = distinctString.split(" ");
 
         Arrays.sort(distinctArray); // sort in alphabetic order
