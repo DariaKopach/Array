@@ -54,8 +54,5 @@ public class Main {
             System.out.println(distinctArray[i]);
         }
 
-        String hw = "Hello World!";
-        int hash = hw.hashCode();
-        System.out.println(hash);
     }
 }
