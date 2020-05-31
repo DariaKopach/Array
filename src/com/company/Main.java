@@ -41,12 +41,10 @@ public class Main {
         String distinctString = " ";
 
         for (int i = 0; i < words.length; i++) {
-
             if (!distinctString.contains(words[i])) {
                 distinctString += words[i] + " ";
             }
         }
-
         String[] distinctArray = distinctString.split(" ");
 
         Arrays.sort(distinctArray); // sort in alphabetic order
